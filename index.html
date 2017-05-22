@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div id ="sub-head">
+		<h1><strong> Gem Collectors!</strong></h1>
+		<h3><i> Can you match the gem quota? </i></h3>	
+		
+		<div id ="Instructions">
+			<br>
+			<p><h4>Instructions</h4></p>
+			<p>You will be provided quota of how many gems you will need to collect.</p>
+			<p>There will be four gems below.</p>				<p>By selecting a gem your collection will increase. </p>
+			<p>Each gem will contain a random amount. </p>
+			<p>To win, meet the quota. Match the number of gems ordered.</p>				
+			<p>You lose the game when your collection reaches beyond the quota. </p>
+			<p>Remember, each time the game starts, the game will change the values of each gem.</p>
+			<p>Happy mining~!</p>
+		</div>
+
+		<div id = "quota">
+			<h4> Quota to meet: <div class = "value"></h4></div> </div>
+		
+		<div id = "scoreboard">
+			<div id = "status"></div>
+			Wins: <div id = "win"></div>
+			Losses: <div id = "loss"></div>
+		</div>	
+
+		<div id = "gems"></div>
+
+		<div id="totalScore">
+		<div id="yourScore"> Total collected: <div id="yourScore">0</div></div>
+
+		</div>	
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="game.js"></script>
+
+
+
+</body>
+</html>
